@@ -1,0 +1,45 @@
+---
+title: "윤동규 놀이터"
+output: learnr::tutorial
+    #progressive: true
+    #allow_skip: true
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Quiz 1
+
+### 윤동규는 누구일까요?
+
+
+```{r letter-a, echo=FALSE}
+initialize_tutorial()
+question("What number is the letter A in the English alphabet?",
+  answer("8"),
+  answer("14"),
+  answer("1", correct = TRUE),
+  answer("23"),
+  allow_retry = TRUE
+)
+```
+```{r quiz1, echo=FALSE}
+quiz(caption = "Quiz 1",
+  question("What number is the letter A in the *English* alphabet?",
+    answer("8"),
+    answer("14"),
+    answer("1", correct = TRUE),
+    answer("23")
+  ),
+  question("again",
+     answer("8"),
+    answer("14"),
+    answer("1", correct = TRUE),
+    answer("23")
+  )
+)
+```

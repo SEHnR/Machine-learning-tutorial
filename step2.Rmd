@@ -1,0 +1,16 @@
+---
+title: "R introduction to machine learning"
+subtitle: '기계학습 소개-SEHnR, basic step 1' 
+output:
+  html_document: 
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    number_sections: true
+   #progressive: true
+    #allow_skip: true
+#runtime: shiny_prerendered
+    
+---
+# 조건부 화
+
